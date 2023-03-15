@@ -1,0 +1,42 @@
+*{ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif	}
+h2{ font-family:'Times New Roman'color;color: red}
+/*Solo selecciona la etiqueta que estamos indicando en el selector*/
+
+
+.card{ background-color: violet; }
+/*Un selector de tip clase se manda a llamar con un punto seguido del nombre que le dimos*/
+
+/*Parte de section*/
+section{
+    width: 70%;
+    background-color: cornflowerblue;
+    float: left;
+    margin: 10px;
+}
+/*Parte del article*/
+article{
+margin: 0.5em 3em 0em 0em;
+padding: 0.5em 2em;
+background-color: crimson;
+border: 10px solid black;
+
+}/*top, right, buttom, left*/
+/*Margin: 5m 3m el primer tèrmino solo va afectar arriba y abajo
+y el segundo  va afectar izquierda y derecha*/
+
+aside{
+    width: 25%;
+    float: left;/*Nos va a ayudar la posicion del elemento*/
+    background-color: coral;
+}
+
+footer{
+    background-color: blueviolet;
+    width: auto;
+    height: 60px;
+    text-align: center;
+    padding: 45px;
+    margin: 10px;
+    clear: both;
+
+}

@@ -1,0 +1,21 @@
+.box{
+
+    display: inline-block;
+    width: 100px; /*Ancho*/
+    height: 100px;/*Altura*/
+    background: pink; /*Fondo*/
+    color: rgb(209, 151, 151);/*Color texto*/
+
+}
+#three {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: palevioletred;
+}
+.texto1{
+    width: 600x; /*Ancho*/
+    height: 400px;/*Altura*/
+    overflow: visible;
+    padding-left: 150px;
+}
